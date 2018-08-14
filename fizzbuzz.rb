@@ -6,10 +6,10 @@ buzzy= (i % 5 == 0)
 
 def fizzbuzz(i)
   if fizzy
-    puts "Fizz"
+    "Fizz"
   if buzzy
-    puts "Buzz"
+    "Buzz"
   if fizzy && buzzy
-    puts "FizzBuzz"
+    "FizzBuzz"
   end
 end
