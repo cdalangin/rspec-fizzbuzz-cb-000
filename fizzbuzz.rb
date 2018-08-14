@@ -8,4 +8,5 @@ def fizzbuzz(i)
     "Buzz"
   if i % 5 && 3 == 0
     "FizzBuzz"
+  end 
 end
