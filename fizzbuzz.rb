@@ -7,8 +7,10 @@ buzzy= (i % 5 == 0)
 def fizzbuzz(i)
   if fizzy
     "Fizz"
+  end
   if buzzy
     "Buzz"
+  end
   if fizzy && buzzy
     "FizzBuzz"
   end
