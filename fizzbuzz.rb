@@ -1,17 +1,12 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
-fizzy= (i % 3 ==0)
-buzzy= (i % 5 == 0)
-
 def fizzbuzz(i)
-  if fizzy
+  if i % 3 == 0
     "Fizz"
-
-  elsif condition
-   buzzy
+  elsif i % 5 == 0
     "Buzz"
-  elsif fizzy && buzzy
+  elsif i % 3 == 0 && i % 5 == 0
     "FizzBuzz"
   else
     nil
