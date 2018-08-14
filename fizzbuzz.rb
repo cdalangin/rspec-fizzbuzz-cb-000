@@ -13,7 +13,7 @@ def fizzbuzz(i)
     "Buzz"
   elsif fizzy && buzzy
     "FizzBuzz"
-  else 
+  else
     nil
   end
 end
