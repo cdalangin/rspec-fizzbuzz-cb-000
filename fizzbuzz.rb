@@ -4,9 +4,9 @@
 def fizzbuzz(i)
   if i % 3 && 5 == 0
     "FizzBuzz"
-  elsif i % 5 == 0
+  elsif i % 5 == 0 && !(i % 3 == 0)
     "Buzz"
-  elsif i % 3 == 0
+  elsif i % 3 == 0 && !(i % 5 == 0)
     "Fizz"
   else
     nil
