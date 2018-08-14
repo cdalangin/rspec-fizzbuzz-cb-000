@@ -5,10 +5,10 @@ def fizzbuzz(i)
   if i % 3 == 0
     "Fizz"
   end
-  elsif i % 5 == 0
+  if i % 5 == 0
     "Buzz"
   end
-  elsif i % 5 && 3 == 0
+  if i % 5 && 3 == 0
     "FizzBuzz"
   end
 end
