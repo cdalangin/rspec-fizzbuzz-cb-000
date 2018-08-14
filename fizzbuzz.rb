@@ -4,11 +4,8 @@
 def fizzbuzz(i)
   if i % 3 == 0
     "Fizz"
-  end
   if i % 5 == 0
     "Buzz"
-  end
   if i % 5 && 3 == 0
     "FizzBuzz"
-  end
 end
