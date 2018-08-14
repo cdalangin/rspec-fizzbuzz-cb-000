@@ -7,11 +7,13 @@ buzzy= (i % 5 == 0)
 def fizzbuzz(i)
   if fizzy
     "Fizz"
-  end
-  if buzzy
+
+  elsif condition
+   buzzy
     "Buzz"
-  end
-  if fizzy && buzzy
+  elsif fizzy && buzzy
     "FizzBuzz"
+  else 
+    nil
   end
 end
